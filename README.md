@@ -1,13 +1,4 @@
-         ___   _____ _     _ _____ ___     _____ _____ _   _ ___   _   _ 
-      (  _ \(  _  ) )   ( )  _  )  _ \  (_   _)  _  ) ) ( )  _ \( ) ( )
-   __ | (_) ) (_) |\ \_/ /| (_) | | ) |   | | | ( ) | |/ /| (_(_)  \| |
- / __ \  _ ((  _  )  \ /  (  _  ) | | )   | | | | | |   ( |  _)_|     |
-(  ___/ (_) ) | | |  | |  | | | | |_) |   | | | (_) | |\ \| (_( ) | \ |
- \____)____/(_) (_)  (_)  (_) (_)____/    (_) (_____)_) (_)____/(_) (_)
-                                                                       
-                                                                       
-
-                                                             
+                                                                                
                                                              
 eBayad Token (EBTKN) is an ERC20 TOKEN running on Goerli testnet, ready to be deployed on the mainnet.
 
@@ -17,7 +8,7 @@ eBayad Token (EBTKN) is an ERC20 TOKEN running on Goerli testnet, ready to be de
 pragma solidity ^0.8.17;
 
 
->> You can initially test the ebayadtoken contract file to remix IDE to test it before doing some editing <<<
+// You can initially test the ebayadtoken contract file to remix IDE to test it before doing some editing 
 
 
 
@@ -34,9 +25,11 @@ https://docs.openzeppelin.com/contracts/4.x/api/token/erc20
 
 If you get an error (especially the matchers plug-in):
 1. Uninstall the @nomiclabs/hardhat-waffle and ethereum-waffle packages:
----->  npm uninstall @nomiclabs/hardhat-waffle ethereum-waffle   <----------
+
+-->  npm uninstall @nomiclabs/hardhat-waffle ethereum-waffle  <---
 
 2. Then install the Hardhat Chai Matchers plugin:
-----> npm install --save-dev @nomicfoundation/hardhat-chai-matchers <-------
+
+--> npm install --save-dev @nomicfoundation/hardhat-chai-matchers <---
 
 https://hardhat.org/hardhat-chai-matchers/docs/migrate-from-waffle
